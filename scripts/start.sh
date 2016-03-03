@@ -30,4 +30,3 @@ export HOME='/config'
 
 #kick off main process
 exec '/usr/lib/plexmediaserver/Plex Media Server'
-exec 'ps aux'
