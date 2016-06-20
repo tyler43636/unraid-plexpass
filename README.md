@@ -20,7 +20,7 @@ docker run -d \
   -v /etc/localtime:/etc/localtime:ro \
   -e PUID=<uid for user> \
   -e PGID=<gid for user> \
-  tyler43636/unraid-plex
+  tyler43636/unraid-plexpass
 ```
 
 ## Example
@@ -33,7 +33,7 @@ docker run -d \
   -v /etc/localtime:/etc/localtime:ro \
   -e PUID=99 \
   -e PGID=100 \
-  tyler43636/unraid-plex
+  tyler43636/unraid-plexpass
 ```
 
 # Notes
