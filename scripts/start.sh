@@ -19,8 +19,8 @@ else
 fi
 
 #set language variables (required for plex) must be same as locale set in base image
-export LANG='en_GB.UTF-8'
-export LC_ALL='en_GB.UTF-8'
+export LANG='en_US.UTF-8'
+export LC_ALL='en_US.UTF-8'
 
 #this path allows the import of the .so library modules located in the /opt/plexmediaserver folder
 export LD_LIBRARY_PATH='/usr/lib/plexmediaserver'

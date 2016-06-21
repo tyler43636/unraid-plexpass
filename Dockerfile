@@ -4,6 +4,12 @@ MAINTAINER Tyler Payne <tyler43636@gmail.com>
 
 ENV VERSION 0.9.17.2.2159-2bd156c
 
+# Set the locale
+RUN locale-gen en_US.UTF-8
+ENV LANG en_US.UTF-8
+ENV LANGUAGE en_US:en
+ENV LC_ALL en_US.UTF-8
+
 # add supervisor file for application
 ADD plexmediaserver.conf /etc/supervisor/conf.d/
 
