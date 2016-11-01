@@ -2,7 +2,7 @@ FROM ubuntu:14.04
 
 MAINTAINER Tyler Payne <tyler43636@gmail.com>
 
-ENV VERSION 1.2.3.2914-1ff0f18
+ENV VERSION 1.2.4.2949-4e494e4
 
 # Set the locale
 RUN locale-gen en_US.UTF-8
